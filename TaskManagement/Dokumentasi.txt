@@ -1,0 +1,38 @@
+Buat Collection Baru:
+
+Buka Postman dan klik pada New di bagian atas, lalu pilih Collection.
+Beri nama Collection Anda (misalnya, "Todo API Documentation").
+Tambahkan Request ke Collection:
+
+Untuk setiap endpoint API, tambahkan request ke collection Anda.
+Misalnya, untuk POST /api/tasks:
+Klik New, pilih Request.
+
+Pilih POST dan masukkan URL endpoint.
+
+Tambahkan JSON body yang sesuai, misalnya:
+
+json
+Copy code
+{
+  "name": "John Doe",
+  "username": "johndoe",
+  "email": "john@example.com",
+  "tasks": [
+    {
+      "description": "Perbaikan api master",
+      "category_id": 1
+    }
+  ]
+}
+Klik Save untuk menyimpan request ke collection.
+
+Menambahkan Deskripsi dan Detail:
+
+Anda bisa menambahkan deskripsi ke setiap request untuk memberikan informasi lebih lanjut seperti input dan output yang diharapkan.
+Klik pada request, pilih Documentation tab di sebelah kanan, dan masukkan deskripsi.
+Generate Dokumentasi:
+
+Klik pada tiga titik di sebelah nama collection dan pilih Generate Collection.
+Pilih format dokumentasi yang diinginkan (misalnya, "Postman Documentation").
+Ikuti instruksi untuk menerbitkan dokumentasi online atau mengekspor ke format JSON atau HTML.
